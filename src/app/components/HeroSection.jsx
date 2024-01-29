@@ -18,7 +18,7 @@ const HeroSection = () => {
           <h1 className="text-white mb-4 md:mt-20 text-[30px] md:text-[37px] sm:text-[30px] lg:leading-normal   xl:m-0 font-[900]">
             <br></br>
             <TypeAnimation
-              sequence={["Welcome To EatWell", 1000]}
+              sequence={["Welcome To EatWell", 1000,]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
