@@ -1,0 +1,41 @@
+.hero {
+    /* background: url(../images/projects/car.png) !important; */
+    background-position: center center !important;
+    background: url(../../../public/images/bg_3.jpg.webp);
+}
+
+.im{
+  width: 8.2rem;
+}
+@media(min-width:375px){
+    .im{
+        width: 9.9rem;
+    }
+}
+@media(min-width:568px){
+    .im{
+        width: 10.3rem;
+    }
+}
+@media(min-width:667px){
+    .im{
+        width: 11.8rem;
+    }
+}
+@media(min-width:768px){
+    .im{
+        width: 13.5rem;
+    }
+}
+@media(min-width:992px){
+    .im{
+        width: 18.2rem;
+        height: 14rem;
+    }
+}
+@media(min-width:1200px){
+    .im{
+        width: 21.8rem;
+        height: 23rem;
+    }
+}
